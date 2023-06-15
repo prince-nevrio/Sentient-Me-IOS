@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0C631CD4-3805-4B7A-AD7A-FC339B48C50A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "075157C0-94BB-463A-B1FD-5156F94021E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sentient Me/Utils/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "initFirebaseConfigData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "075157C0-94BB-463A-B1FD-5156F94021E1 - da30ddcf5912d905"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.FIRRemoteConfigFetchStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sentient_Me.BaseViewController.initFirebaseConfigData() -&gt; ()"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1812">
+               </Location>
+               <Location
+                  uuid = "075157C0-94BB-463A-B1FD-5156F94021E1 - da30ddcf5912d922"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.FIRRemoteConfigFetchStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Sentient_Me.BaseViewController.initFirebaseConfigData() -&gt; ()"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1668">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AAEF1AB-B5D5-4AE2-BE1E-F8D74526C061"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sentient Me/Utils/String.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "isAppNewVersionAvailable(leatestVersion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBEAA0D1-407F-4554-AD4A-E7589C296FDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sentient Me/Utils/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "showUpdateAppAlertDialog(leatestVersion:minimumVersion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBEAA0D1-407F-4554-AD4A-E7589C296FDA - 48907cd57686fd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sentient_Me.BaseViewController.showUpdateAppAlertDialog() -&gt; ()"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "FBEAA0D1-407F-4554-AD4A-E7589C296FDA - d4d0df3860867817"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sentient_Me.BaseViewController.showUpdateAppAlertDialog(leatestVersion: Swift.String, minimumVersion: Swift.String) -&gt; ()"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EC6E9C4-6395-4BD8-B241-5EFB0E03E26A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sentient Me/Utils/String.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "isAppNewVersionAvailable(leatestVersion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "3EC6E9C4-6395-4BD8-B241-5EFB0E03E26A - bc1b429827c44afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sentient_Me.isAppNewVersionAvailable(leatestVersion: Swift.Float) -&gt; Swift.Bool"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/String.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "3EC6E9C4-6395-4BD8-B241-5EFB0E03E26A - 71e61aad23e20ee2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sentient_Me.isAppNewVersionAvailable(leatestVersion: __C.NSNumber) -&gt; Swift.Bool"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/String.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "3EC6E9C4-6395-4BD8-B241-5EFB0E03E26A - b6462f74f7c97085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sentient_Me.isAppNewVersionAvailable(leatestVersion: Swift.Double) -&gt; Swift.Bool"
+                  moduleName = "Sentient Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/princesaini/IosProjects/Sentient%20Me/Sentient%20Me/Utils/String.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "532">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37AD0D74-F8FE-4829-A69A-EF7433ABCA9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sentient Me/Utils/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "showUpdateAppAlertDialog(leatestVersion:minimumVersion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BFF2929-3475-49E2-9545-0E5F6C4089F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sentient Me/Utils/String.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "isAppNewVersionAvailable(leatestVersion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

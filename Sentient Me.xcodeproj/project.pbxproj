@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1CDDBF2A39990300D14059 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CDDBE2A39990300D14059 /* UIView+Ext.swift */; };
+		AE35F7822A3981BF00B19D37 /* TrackMyProgress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE35F7812A3981BF00B19D37 /* TrackMyProgress.storyboard */; };
+		AE35F7842A39875300B19D37 /* MyProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35F7832A39875300B19D37 /* MyProgressCollectionViewCell.swift */; };
+		AE35F7862A39876900B19D37 /* TrackMyProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35F7852A39876900B19D37 /* TrackMyProgressViewController.swift */; };
+		AE5DE79F2A33027D004BC9B4 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE79E2A33027D004BC9B4 /* ApiRepository.swift */; };
+		AE5DE7A12A33031E004BC9B4 /* MyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7A02A33031E004BC9B4 /* MyNetwork.swift */; };
+		AE5DE7A32A33040D004BC9B4 /* UserAuthDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7A22A33040D004BC9B4 /* UserAuthDataResponse.swift */; };
+		AE5DE7A52A330489004BC9B4 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7A42A330489004BC9B4 /* AlertController.swift */; };
+		AE5DE7A72A3304D0004BC9B4 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7A62A3304D0004BC9B4 /* Storyboard.swift */; };
+		AE5DE7A92A330505004BC9B4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7A82A330505004BC9B4 /* String.swift */; };
+		AE5DE7AB2A33052D004BC9B4 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7AA2A33052D004BC9B4 /* Endpoints.swift */; };
+		AE5DE7AD2A330658004BC9B4 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7AC2A330658004BC9B4 /* UIImageView.swift */; };
+		AE5DE7B02A330D88004BC9B4 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5DE7AF2A330D88004BC9B4 /* OnBoarding.storyboard */; };
+		AE5DE7B22A3817F7004BC9B4 /* DashBoardTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5DE7B12A3817F7004BC9B4 /* DashBoardTab.storyboard */; };
+		AE5DE7B62A381C8E004BC9B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7B42A381C8E004BC9B4 /* HomeViewController.swift */; };
+		AE5DE7BD2A381D77004BC9B4 /* BadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7BC2A381D77004BC9B4 /* BadgeViewController.swift */; };
+		AE5DE7C02A381DA2004BC9B4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7BF2A381DA2004BC9B4 /* SettingsViewController.swift */; };
+		AE5DE7C22A38467B004BC9B4 /* SettingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE7C12A38467B004BC9B4 /* SettingCollectionViewCell.swift */; };
+		AED536E72A39BACE000BC51D /* BadgeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED536E62A39BACE000BC51D /* BadgeCollectionViewCell.swift */; };
+		AED536EA2A39C7E9000BC51D /* BadgeDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED536E92A39C7E9000BC51D /* BadgeDetails.storyboard */; };
+		AED536EC2A39C9AC000BC51D /* BadgeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED536EB2A39C9AC000BC51D /* BadgeDetailsViewController.swift */; };
+		AED536EE2A3ADB7D000BC51D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AED536ED2A3ADB7D000BC51D /* GoogleService-Info.plist */; };
 		AEDED8D92A27326D001B1393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8D82A27326D001B1393 /* AppDelegate.swift */; };
 		AEDED8DB2A27326D001B1393 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8DA2A27326D001B1393 /* SceneDelegate.swift */; };
 		AEDED8DD2A27326D001B1393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8DC2A27326D001B1393 /* ViewController.swift */; };
@@ -14,9 +36,42 @@
 		AEDED8E32A27326D001B1393 /* Sentient_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8E12A27326D001B1393 /* Sentient_Me.xcdatamodeld */; };
 		AEDED8E52A27326E001B1393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDED8E42A27326E001B1393 /* Assets.xcassets */; };
 		AEDED8E82A27326E001B1393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDED8E62A27326E001B1393 /* LaunchScreen.storyboard */; };
+		AEDED8F12A273E09001B1393 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8F02A273E09001B1393 /* Constants.swift */; };
+		AEDED8F52A2743DA001B1393 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8F42A2743DA001B1393 /* OnBoardingViewController.swift */; };
+		AEDED8F72A2754E4001B1393 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8F62A2754E4001B1393 /* OnBoardingCollectionViewCell.swift */; };
+		AEDED8F92A27593E001B1393 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8F82A27593E001B1393 /* BaseViewController.swift */; };
+		AEDED8FB2A275968001B1393 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8FA2A275968001B1393 /* MyUserDefaults.swift */; };
+		AEDED8FD2A275A14001B1393 /* OnBoardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8FC2A275A14001B1393 /* OnBoardingDataModel.swift */; };
+		AEDED9002A277671001B1393 /* DashBoardTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8FF2A277671001B1393 /* DashBoardTabViewController.swift */; };
+		B7392F8BF4A6572696A664FD /* Pods_Sentient_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F311ECE50F7400B12B16B91 /* Pods_Sentient_Me.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F311ECE50F7400B12B16B91 /* Pods_Sentient_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sentient_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7325675292CDC19C7FD3BAB2 /* Pods-Sentient Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sentient Me.release.xcconfig"; path = "Target Support Files/Pods-Sentient Me/Pods-Sentient Me.release.xcconfig"; sourceTree = "<group>"; };
+		8B3A6C8E8CBB136C1CE744B8 /* Pods-Sentient Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sentient Me.debug.xcconfig"; path = "Target Support Files/Pods-Sentient Me/Pods-Sentient Me.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1CDDBE2A39990300D14059 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		AE35F7812A3981BF00B19D37 /* TrackMyProgress.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrackMyProgress.storyboard; sourceTree = "<group>"; };
+		AE35F7832A39875300B19D37 /* MyProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE35F7852A39876900B19D37 /* TrackMyProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyProgressViewController.swift; sourceTree = "<group>"; };
+		AE5DE79E2A33027D004BC9B4 /* ApiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
+		AE5DE7A02A33031E004BC9B4 /* MyNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetwork.swift; sourceTree = "<group>"; };
+		AE5DE7A22A33040D004BC9B4 /* UserAuthDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthDataResponse.swift; sourceTree = "<group>"; };
+		AE5DE7A42A330489004BC9B4 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		AE5DE7A62A3304D0004BC9B4 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		AE5DE7A82A330505004BC9B4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		AE5DE7AA2A33052D004BC9B4 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		AE5DE7AC2A330658004BC9B4 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		AE5DE7AF2A330D88004BC9B4 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		AE5DE7B12A3817F7004BC9B4 /* DashBoardTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoardTab.storyboard; sourceTree = "<group>"; };
+		AE5DE7B42A381C8E004BC9B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE5DE7BC2A381D77004BC9B4 /* BadgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeViewController.swift; sourceTree = "<group>"; };
+		AE5DE7BF2A381DA2004BC9B4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AE5DE7C12A38467B004BC9B4 /* SettingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCollectionViewCell.swift; sourceTree = "<group>"; };
+		AED536E62A39BACE000BC51D /* BadgeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AED536E92A39C7E9000BC51D /* BadgeDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BadgeDetails.storyboard; sourceTree = "<group>"; };
+		AED536EB2A39C9AC000BC51D /* BadgeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetailsViewController.swift; sourceTree = "<group>"; };
+		AED536ED2A3ADB7D000BC51D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AEDED8D52A27326D001B1393 /* Sentient Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sentient Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDED8D82A27326D001B1393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEDED8DA2A27326D001B1393 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +81,13 @@
 		AEDED8E42A27326E001B1393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEDED8E72A27326E001B1393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEDED8E92A27326E001B1393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDED8F02A273E09001B1393 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AEDED8F42A2743DA001B1393 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		AEDED8F62A2754E4001B1393 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEDED8F82A27593E001B1393 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AEDED8FA2A275968001B1393 /* MyUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
+		AEDED8FC2A275A14001B1393 /* OnBoardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingDataModel.swift; sourceTree = "<group>"; };
+		AEDED8FF2A277671001B1393 /* DashBoardTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +95,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7392F8BF4A6572696A664FD /* Pods_Sentient_Me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D267AAEAF50267354AEE613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B3A6C8E8CBB136C1CE744B8 /* Pods-Sentient Me.debug.xcconfig */,
+				7325675292CDC19C7FD3BAB2 /* Pods-Sentient Me.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE35F7802A3981A300B19D37 /* TrackMyProgress */ = {
+			isa = PBXGroup;
+			children = (
+				AE35F7812A3981BF00B19D37 /* TrackMyProgress.storyboard */,
+				AE35F7832A39875300B19D37 /* MyProgressCollectionViewCell.swift */,
+				AE35F7852A39876900B19D37 /* TrackMyProgressViewController.swift */,
+			);
+			path = TrackMyProgress;
+			sourceTree = "<group>";
+		};
+		AE5DE79C2A330242004BC9B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEDED8FC2A275A14001B1393 /* OnBoardingDataModel.swift */,
+				AE5DE7A22A33040D004BC9B4 /* UserAuthDataResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE5DE79D2A33025A004BC9B4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DE79E2A33027D004BC9B4 /* ApiRepository.swift */,
+				AE5DE7A02A33031E004BC9B4 /* MyNetwork.swift */,
+				AE5DE7AA2A33052D004BC9B4 /* Endpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AE5DE7AE2A330D0E004BC9B4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AEDED8DC2A27326D001B1393 /* ViewController.swift */,
+				AEDED8DE2A27326D001B1393 /* Main.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AE5DE7B32A381C47004BC9B4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DE7B42A381C8E004BC9B4 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AE5DE7BA2A381D57004BC9B4 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DE7BC2A381D77004BC9B4 /* BadgeViewController.swift */,
+				AED536E62A39BACE000BC51D /* BadgeCollectionViewCell.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		AE5DE7BE2A381D86004BC9B4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DE7BF2A381DA2004BC9B4 /* SettingsViewController.swift */,
+				AE5DE7C12A38467B004BC9B4 /* SettingCollectionViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AED536E82A39C7D1000BC51D /* BadgeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AED536E92A39C7E9000BC51D /* BadgeDetails.storyboard */,
+				AED536EB2A39C9AC000BC51D /* BadgeDetailsViewController.swift */,
+			);
+			path = BadgeDetails;
+			sourceTree = "<group>";
+		};
 		AEDED8CC2A27326D001B1393 = {
 			isa = PBXGroup;
 			children = (
 				AEDED8D72A27326D001B1393 /* Sentient Me */,
 				AEDED8D62A27326D001B1393 /* Products */,
+				2D267AAEAF50267354AEE613 /* Pods */,
+				B564360C43AB8C52B3FB54A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +205,76 @@
 		AEDED8D72A27326D001B1393 /* Sentient Me */ = {
 			isa = PBXGroup;
 			children = (
+				AE5DE79D2A33025A004BC9B4 /* Network */,
+				AE5DE79C2A330242004BC9B4 /* Model */,
+				AEDED8F22A274399001B1393 /* UI */,
+				AEDED8EF2A273DF4001B1393 /* Utils */,
 				AEDED8D82A27326D001B1393 /* AppDelegate.swift */,
 				AEDED8DA2A27326D001B1393 /* SceneDelegate.swift */,
-				AEDED8DC2A27326D001B1393 /* ViewController.swift */,
-				AEDED8DE2A27326D001B1393 /* Main.storyboard */,
 				AEDED8E42A27326E001B1393 /* Assets.xcassets */,
 				AEDED8E62A27326E001B1393 /* LaunchScreen.storyboard */,
 				AEDED8E92A27326E001B1393 /* Info.plist */,
+				AED536ED2A3ADB7D000BC51D /* GoogleService-Info.plist */,
 				AEDED8E12A27326D001B1393 /* Sentient_Me.xcdatamodeld */,
 			);
 			path = "Sentient Me";
+			sourceTree = "<group>";
+		};
+		AEDED8EF2A273DF4001B1393 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AEDED8F02A273E09001B1393 /* Constants.swift */,
+				AEDED8F82A27593E001B1393 /* BaseViewController.swift */,
+				AEDED8FA2A275968001B1393 /* MyUserDefaults.swift */,
+				AE5DE7A42A330489004BC9B4 /* AlertController.swift */,
+				AE5DE7A62A3304D0004BC9B4 /* Storyboard.swift */,
+				AE5DE7A82A330505004BC9B4 /* String.swift */,
+				AE5DE7AC2A330658004BC9B4 /* UIImageView.swift */,
+				AE1CDDBE2A39990300D14059 /* UIView+Ext.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AEDED8F22A274399001B1393 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AED536E82A39C7D1000BC51D /* BadgeDetails */,
+				AE35F7802A3981A300B19D37 /* TrackMyProgress */,
+				AE5DE7AE2A330D0E004BC9B4 /* Auth */,
+				AEDED8FE2A2775F6001B1393 /* DashBoard */,
+				AEDED8F32A2743A7001B1393 /* OnBoarding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AEDED8F32A2743A7001B1393 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				AEDED8F42A2743DA001B1393 /* OnBoardingViewController.swift */,
+				AEDED8F62A2754E4001B1393 /* OnBoardingCollectionViewCell.swift */,
+				AE5DE7AF2A330D88004BC9B4 /* OnBoarding.storyboard */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		AEDED8FE2A2775F6001B1393 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DE7BE2A381D86004BC9B4 /* Settings */,
+				AE5DE7BA2A381D57004BC9B4 /* Badge */,
+				AE5DE7B32A381C47004BC9B4 /* Home */,
+				AEDED8FF2A277671001B1393 /* DashBoardTabViewController.swift */,
+				AE5DE7B12A3817F7004BC9B4 /* DashBoardTab.storyboard */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		B564360C43AB8C52B3FB54A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F311ECE50F7400B12B16B91 /* Pods_Sentient_Me.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +284,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEDED8EC2A27326E001B1393 /* Build configuration list for PBXNativeTarget "Sentient Me" */;
 			buildPhases = (
+				7A19E798147AD5A50F0C5CD6 /* [CP] Check Pods Manifest.lock */,
 				AEDED8D12A27326D001B1393 /* Sources */,
 				AEDED8D22A27326D001B1393 /* Frameworks */,
 				AEDED8D32A27326D001B1393 /* Resources */,
+				9DE1B72D1713F95046CE1C5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Sentient Me";
+			packageProductDependencies = (
+			);
 			productName = "Sentient Me";
 			productReference = AEDED8D52A27326D001B1393 /* Sentient Me.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +325,8 @@
 				Base,
 			);
 			mainGroup = AEDED8CC2A27326D001B1393;
+			packageReferences = (
+			);
 			productRefGroup = AEDED8D62A27326D001B1393 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,21 +342,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEDED8E82A27326E001B1393 /* LaunchScreen.storyboard in Resources */,
+				AED536EE2A3ADB7D000BC51D /* GoogleService-Info.plist in Resources */,
+				AE35F7822A3981BF00B19D37 /* TrackMyProgress.storyboard in Resources */,
+				AED536EA2A39C7E9000BC51D /* BadgeDetails.storyboard in Resources */,
+				AE5DE7B22A3817F7004BC9B4 /* DashBoardTab.storyboard in Resources */,
 				AEDED8E52A27326E001B1393 /* Assets.xcassets in Resources */,
 				AEDED8E02A27326D001B1393 /* Main.storyboard in Resources */,
+				AE5DE7B02A330D88004BC9B4 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A19E798147AD5A50F0C5CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sentient Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE1B72D1713F95046CE1C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sentient Me/Pods-Sentient Me-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sentient Me/Pods-Sentient Me-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sentient Me/Pods-Sentient Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEDED8D12A27326D001B1393 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDED8F72A2754E4001B1393 /* OnBoardingCollectionViewCell.swift in Sources */,
+				AE5DE7A52A330489004BC9B4 /* AlertController.swift in Sources */,
+				AED536EC2A39C9AC000BC51D /* BadgeDetailsViewController.swift in Sources */,
+				AEDED8F12A273E09001B1393 /* Constants.swift in Sources */,
 				AEDED8DD2A27326D001B1393 /* ViewController.swift in Sources */,
+				AE5DE7A72A3304D0004BC9B4 /* Storyboard.swift in Sources */,
+				AEDED8FB2A275968001B1393 /* MyUserDefaults.swift in Sources */,
+				AE5DE7A12A33031E004BC9B4 /* MyNetwork.swift in Sources */,
+				AE35F7862A39876900B19D37 /* TrackMyProgressViewController.swift in Sources */,
+				AE5DE7C22A38467B004BC9B4 /* SettingCollectionViewCell.swift in Sources */,
 				AEDED8D92A27326D001B1393 /* AppDelegate.swift in Sources */,
+				AEDED8F52A2743DA001B1393 /* OnBoardingViewController.swift in Sources */,
+				AEDED8FD2A275A14001B1393 /* OnBoardingDataModel.swift in Sources */,
+				AEDED8F92A27593E001B1393 /* BaseViewController.swift in Sources */,
+				AE5DE7A32A33040D004BC9B4 /* UserAuthDataResponse.swift in Sources */,
+				AE5DE7AD2A330658004BC9B4 /* UIImageView.swift in Sources */,
+				AE5DE7C02A381DA2004BC9B4 /* SettingsViewController.swift in Sources */,
+				AE5DE79F2A33027D004BC9B4 /* ApiRepository.swift in Sources */,
+				AEDED9002A277671001B1393 /* DashBoardTabViewController.swift in Sources */,
+				AE5DE7B62A381C8E004BC9B4 /* HomeViewController.swift in Sources */,
+				AE5DE7A92A330505004BC9B4 /* String.swift in Sources */,
+				AE35F7842A39875300B19D37 /* MyProgressCollectionViewCell.swift in Sources */,
+				AE5DE7BD2A381D77004BC9B4 /* BadgeViewController.swift in Sources */,
+				AE1CDDBF2A39990300D14059 /* UIView+Ext.swift in Sources */,
 				AEDED8DB2A27326D001B1393 /* SceneDelegate.swift in Sources */,
+				AE5DE7AB2A33052D004BC9B4 /* Endpoints.swift in Sources */,
+				AED536E72A39BACE000BC51D /* BadgeCollectionViewCell.swift in Sources */,
 				AEDED8E32A27326D001B1393 /* Sentient_Me.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,16 +570,18 @@
 		};
 		AEDED8ED2A27326E001B1393 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3A6C8E8CBB136C1CE744B8 /* Pods-Sentient Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4B3Y5522W3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sentient Me/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -304,7 +590,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "my-self.Sentient-Me";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentient.me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,16 +600,18 @@
 		};
 		AEDED8EE2A27326E001B1393 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7325675292CDC19C7FD3BAB2 /* Pods-Sentient Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4B3Y5522W3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sentient Me/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -332,7 +620,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "my-self.Sentient-Me";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentient.me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

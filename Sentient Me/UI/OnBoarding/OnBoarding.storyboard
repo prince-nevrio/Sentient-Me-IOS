@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--On Boarding View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingViewController" id="Y6W-OH-hqX" customClass="OnBoardingViewController" customModule="Sentient_Me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q1k-4U-Eml">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="eYP-Y5-Io6">
+                                <rect key="frame" x="138" y="688" width="117" height="26"/>
+                                <color key="pageIndicatorTintColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="currentPageIndicatorTintColor" name="AccentColor"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP3-gB-pAz">
+                                <rect key="frame" x="304.66666666666669" y="742.33333333333337" width="63.333333333333314" height="35.666666666666629"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="NextButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Pi1-HD-6gZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfr-2z-Eie">
+                                <rect key="frame" x="25" y="742.33333333333337" width="61" height="35.666666666666629"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skip">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="skipButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fgT-He-A98"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5wn-Ep-UaJ">
+                                <rect key="frame" x="0.0" y="74" width="393" height="589"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="589" id="JFf-oM-dfM"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="oqe-hn-eHK">
+                                    <size key="itemSize" width="393" height="558"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="JXh-wG-LFA" customClass="OnBoardingCollectionViewCell" customModule="Sentient_Me" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="15.666666666666666" width="393" height="558"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="aph-K4-2yv">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="558"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDk-1B-iHG">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="558"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="EqA-ya-qOj">
+                                                            <rect key="frame" x="0.0" y="25" width="393" height="360"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="360" id="iXo-wC-Xc3"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sentient Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ro2-3H-Izd">
+                                                            <rect key="frame" x="33" y="410" width="327" height="51"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sentient Me is a revolutionary meditation mobile app designed to help you find tranquility, clarity." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOT-FO-3LT">
+                                                            <rect key="frame" x="25" y="476" width="343" height="74"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="74" id="7h7-MB-eKW"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                                    <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="540" id="4UE-Hr-tIS"/>
+                                                        <constraint firstAttribute="trailing" secondItem="EqA-ya-qOj" secondAttribute="trailing" id="5vM-Fv-Lqy"/>
+                                                        <constraint firstAttribute="trailing" secondItem="ZOT-FO-3LT" secondAttribute="trailing" constant="25" id="6Aa-PW-2UG"/>
+                                                        <constraint firstItem="ro2-3H-Izd" firstAttribute="top" secondItem="EqA-ya-qOj" secondAttribute="bottom" constant="25" id="9cE-1I-WRM"/>
+                                                        <constraint firstAttribute="width" constant="393" id="AzR-ZU-7dY"/>
+                                                        <constraint firstItem="ro2-3H-Izd" firstAttribute="leading" secondItem="uDk-1B-iHG" secondAttribute="leadingMargin" constant="25" id="DfK-N9-6Kv"/>
+                                                        <constraint firstItem="EqA-ya-qOj" firstAttribute="top" secondItem="uDk-1B-iHG" secondAttribute="top" constant="25" id="FpD-X7-fgb"/>
+                                                        <constraint firstItem="EqA-ya-qOj" firstAttribute="leading" secondItem="uDk-1B-iHG" secondAttribute="leading" id="GvB-IC-JXd"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ZOT-FO-3LT" secondAttribute="bottom" constant="8" id="YfF-Wf-L6x"/>
+                                                        <constraint firstItem="ZOT-FO-3LT" firstAttribute="leading" secondItem="uDk-1B-iHG" secondAttribute="leading" constant="25" id="e7z-as-ihb"/>
+                                                        <constraint firstAttribute="trailing" secondItem="EqA-ya-qOj" secondAttribute="trailing" id="nCC-1z-R5A"/>
+                                                        <constraint firstAttribute="trailingMargin" secondItem="ro2-3H-Izd" secondAttribute="trailing" constant="25" id="usP-K7-L7c"/>
+                                                        <constraint firstItem="ZOT-FO-3LT" firstAttribute="top" secondItem="ro2-3H-Izd" secondAttribute="bottom" constant="15" id="v6c-ca-miP"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                            <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="uDk-1B-iHG" firstAttribute="top" secondItem="aph-K4-2yv" secondAttribute="top" id="8Mu-Qn-hXA"/>
+                                                <constraint firstAttribute="bottom" secondItem="uDk-1B-iHG" secondAttribute="bottom" id="UCZ-e9-4xh"/>
+                                                <constraint firstItem="uDk-1B-iHG" firstAttribute="leading" secondItem="aph-K4-2yv" secondAttribute="leading" id="Uhj-12-GNQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="uDk-1B-iHG" secondAttribute="trailing" id="aBa-HE-q2w"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <size key="customSize" width="393" height="558"/>
+                                        <connections>
+                                            <outlet property="contentView" destination="aph-K4-2yv" id="DNA-hl-Ksv"/>
+                                            <outlet property="ivImage" destination="EqA-ya-qOj" id="dHz-9A-Z2v"/>
+                                            <outlet property="tvDescription" destination="ZOT-FO-3LT" id="SPx-NO-FKc"/>
+                                            <outlet property="tvTitle" destination="ro2-3H-Izd" id="liJ-4J-KGU"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="osd-S1-oT5"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="vNB-ar-eyp"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dP7-hu-NkR"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eYP-Y5-Io6" firstAttribute="centerX" secondItem="5wn-Ep-UaJ" secondAttribute="centerX" id="6UL-PU-ZZ6"/>
+                            <constraint firstItem="Cfr-2z-Eie" firstAttribute="width" secondItem="vP3-gB-pAz" secondAttribute="width" multiplier="0.963158" id="AuS-14-qHk"/>
+                            <constraint firstItem="dP7-hu-NkR" firstAttribute="trailing" secondItem="5wn-Ep-UaJ" secondAttribute="trailing" id="C7P-Xr-q3h"/>
+                            <constraint firstItem="dP7-hu-NkR" firstAttribute="trailing" secondItem="vP3-gB-pAz" secondAttribute="trailing" constant="25" id="Rvh-uO-liK"/>
+                            <constraint firstItem="dP7-hu-NkR" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vP3-gB-pAz" secondAttribute="trailing" id="TTo-6d-Z83"/>
+                            <constraint firstItem="5wn-Ep-UaJ" firstAttribute="trailing" secondItem="dP7-hu-NkR" secondAttribute="trailing" id="XBY-kC-GM8"/>
+                            <constraint firstItem="dP7-hu-NkR" firstAttribute="bottom" secondItem="vP3-gB-pAz" secondAttribute="bottom" constant="40" id="Yo0-ib-Bw9"/>
+                            <constraint firstItem="5wn-Ep-UaJ" firstAttribute="top" secondItem="dP7-hu-NkR" secondAttribute="top" constant="15" id="bHV-CR-x9z"/>
+                            <constraint firstItem="Cfr-2z-Eie" firstAttribute="leading" secondItem="dP7-hu-NkR" secondAttribute="leading" constant="25" id="dm6-CT-JcF"/>
+                            <constraint firstItem="5wn-Ep-UaJ" firstAttribute="leading" secondItem="dP7-hu-NkR" secondAttribute="leading" id="hIv-VQ-zbX"/>
+                            <constraint firstItem="eYP-Y5-Io6" firstAttribute="top" secondItem="5wn-Ep-UaJ" secondAttribute="bottom" constant="25" id="hfY-Bi-tuz"/>
+                            <constraint firstItem="dP7-hu-NkR" firstAttribute="bottom" secondItem="Cfr-2z-Eie" secondAttribute="bottom" constant="40" id="jCd-vI-VSt"/>
+                            <constraint firstItem="5wn-Ep-UaJ" firstAttribute="trailing" secondItem="dP7-hu-NkR" secondAttribute="trailing" id="qoz-je-alv"/>
+                            <constraint firstItem="eYP-Y5-Io6" firstAttribute="leading" secondItem="dP7-hu-NkR" secondAttribute="leading" constant="138" id="rpR-Rr-XLr"/>
+                            <constraint firstItem="vP3-gB-pAz" firstAttribute="height" secondItem="Cfr-2z-Eie" secondAttribute="height" id="u9m-Q6-rcu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="5wn-Ep-UaJ" id="6Qf-0g-JwK"/>
+                        <outlet property="pageControl" destination="eYP-Y5-Io6" id="6Zg-AI-nBY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_logo" width="341.33334350585938" height="341.33334350585938"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
