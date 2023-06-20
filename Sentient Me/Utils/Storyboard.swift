@@ -16,4 +16,5 @@ class Storyboard: NSObject {
     static let DashBoard:UIStoryboard = UIStoryboard(name: "DashBoardTab", bundle: nil)
     static let TrackMyProgress:UIStoryboard = UIStoryboard(name: "TrackMyProgress", bundle: nil)
     static let BadgeDetails:UIStoryboard = UIStoryboard(name: "BadgeDetails", bundle: nil)
+    static let Notification:UIStoryboard = UIStoryboard(name: "Notification", bundle: nil)
 }

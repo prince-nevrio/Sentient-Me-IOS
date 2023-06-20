@@ -31,6 +31,8 @@ class BaseViewController: UIViewController {
     
     func configureUIonLoad() {
         
+        
+        
     }
     
     func closeViewControler(){
@@ -114,23 +116,4 @@ class BaseViewController: UIViewController {
         }
     }
     
-}
-
-extension UIViewController{
-    func showToast(message : String){
-        let toastLable = UILabel(frame: CGRect(x: (self.view.frame.size.width/2) - 135 , y: self.view.frame.size.height - 100, width: 250, height: 35))
-        toastLable.backgroundColor = UIColor.black.withAlphaComponent(0.6)
-        toastLable.textColor = UIColor.white
-        toastLable.textAlignment = .center
-        toastLable.text = message
-        toastLable.alpha = 1
-        toastLable.layer.cornerRadius = 10
-        toastLable.clipsToBounds = true
-        self.view.addSubview(toastLable)
-        UIView.animate(withDuration: 4, delay:0.1 ,options: .curveEaseIn,animations: {
-            toastLable.alpha = 0.0
-        },completion : {(_) in
-            toastLable.removeFromSuperview()
-        })
-    }
 }

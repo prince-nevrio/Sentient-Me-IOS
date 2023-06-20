@@ -19,6 +19,7 @@ extension UIView{
     }
     
     func setOnClickListener(action :@escaping () -> Void){
+        self.isUserInteractionEnabled = true
           let tapRecogniser = ClickListener(target: self, action: #selector(onViewClicked(sender:)))
           tapRecogniser.onClick = action
           self.addGestureRecognizer(tapRecogniser)

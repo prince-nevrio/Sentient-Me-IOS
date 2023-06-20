@@ -14,8 +14,8 @@
             filePath = "Sentient Me/Utils/BaseViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "initFirebaseConfigData()"
             landmarkType = "7">
             <Locations>
@@ -78,8 +78,8 @@
             filePath = "Sentient Me/Utils/BaseViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "showUpdateAppAlertDialog(leatestVersion:minimumVersion:)"
             landmarkType = "7">
             <Locations>
@@ -189,8 +189,8 @@
             filePath = "Sentient Me/Utils/BaseViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "showUpdateAppAlertDialog(leatestVersion:minimumVersion:)"
             landmarkType = "7">
          </BreakpointContent>

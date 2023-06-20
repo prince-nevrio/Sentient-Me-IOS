@@ -9,6 +9,8 @@ import UIKit
 
 class HomeViewController: BaseViewController {
     
+    @IBOutlet weak var ivProfile: UIImageView!
+    @IBOutlet weak var ivNotification: UIImageView!
     @IBOutlet weak var btnInviteFriends: UIView!
     @IBOutlet weak var btnTrackProgress: UIView!
     @IBOutlet weak var btnBadgeDetails: UIView!
@@ -18,7 +20,7 @@ class HomeViewController: BaseViewController {
         super.viewDidLoad()
         initButtonView()
         btnInviteFriends.setOnClickListener {
-            self.shareLink(link: "https://google.com")
+            self.shareLink(link: "https://sentientme.app.link/e/ABCDE12345")
         }
         btnTrackProgress.setOnClickListener {
             self.openNewController(controller: TrackMyProgressViewController.controller())
@@ -27,7 +29,11 @@ class HomeViewController: BaseViewController {
             self.openNewController(controller: BadgeDetailsViewController.controller())
         }
         btnInstaFeeds.setOnClickListener {
-            self.tabBarController?.showToast(message: "Work in progress")
+            self.showToastMessage(message: "Work in progress")
+        }
+        
+        ivNotification.setOnClickListener {
+            self.openNewController(controller: NotificationsViewController.controller())
         }
 
     }
@@ -42,7 +48,7 @@ class HomeViewController: BaseViewController {
           let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
           self.present(activityVC, animated: true, completion: nil)
         } else {
-            self.tabBarController?.showToast(message: "Something went wrong.")
+            self.showToastMessage(message: "Something went wrong.")
         }
     }
     

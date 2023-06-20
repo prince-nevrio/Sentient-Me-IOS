@@ -68,7 +68,7 @@ class ViewController: BaseViewController {
                 if let networkError = error as? NetworkError, networkError == .internetNotReachable {
                     MyNetwork.showNetworkError(controller: self, error: error)
                 } else {
-                    self.showToast(message: "Something went wrong.")
+                    self.showToastMessage(message: "Something went wrong.")
                 }
                 print(error)
                 break

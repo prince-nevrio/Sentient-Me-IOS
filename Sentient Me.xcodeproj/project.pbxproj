@@ -43,6 +43,9 @@
 		AEDED8FB2A275968001B1393 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8FA2A275968001B1393 /* MyUserDefaults.swift */; };
 		AEDED8FD2A275A14001B1393 /* OnBoardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8FC2A275A14001B1393 /* OnBoardingDataModel.swift */; };
 		AEDED9002A277671001B1393 /* DashBoardTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDED8FF2A277671001B1393 /* DashBoardTabViewController.swift */; };
+		AEF17CE72A418DCA00621A6A /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF17CE62A418DCA00621A6A /* Notification.storyboard */; };
+		AEF17CE92A418E5400621A6A /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17CE82A418E5400621A6A /* NotificationsViewController.swift */; };
+		AEF17CEB2A4194A400621A6A /* NotificationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17CEA2A4194A400621A6A /* NotificationCollectionViewCell.swift */; };
 		B7392F8BF4A6572696A664FD /* Pods_Sentient_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F311ECE50F7400B12B16B91 /* Pods_Sentient_Me.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +91,9 @@
 		AEDED8FA2A275968001B1393 /* MyUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
 		AEDED8FC2A275A14001B1393 /* OnBoardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingDataModel.swift; sourceTree = "<group>"; };
 		AEDED8FF2A277671001B1393 /* DashBoardTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTabViewController.swift; sourceTree = "<group>"; };
+		AEF17CE62A418DCA00621A6A /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		AEF17CE82A418E5400621A6A /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		AEF17CEA2A4194A400621A6A /* NotificationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +244,7 @@
 		AEDED8F22A274399001B1393 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AEF17CE52A418DB100621A6A /* Notification */,
 				AED536E82A39C7D1000BC51D /* BadgeDetails */,
 				AE35F7802A3981A300B19D37 /* TrackMyProgress */,
 				AE5DE7AE2A330D0E004BC9B4 /* Auth */,
@@ -267,6 +274,16 @@
 				AE5DE7B12A3817F7004BC9B4 /* DashBoardTab.storyboard */,
 			);
 			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		AEF17CE52A418DB100621A6A /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				AEF17CE62A418DCA00621A6A /* Notification.storyboard */,
+				AEF17CE82A418E5400621A6A /* NotificationsViewController.swift */,
+				AEF17CEA2A4194A400621A6A /* NotificationCollectionViewCell.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		B564360C43AB8C52B3FB54A7 /* Frameworks */ = {
@@ -343,6 +360,7 @@
 			files = (
 				AEDED8E82A27326E001B1393 /* LaunchScreen.storyboard in Resources */,
 				AED536EE2A3ADB7D000BC51D /* GoogleService-Info.plist in Resources */,
+				AEF17CE72A418DCA00621A6A /* Notification.storyboard in Resources */,
 				AE35F7822A3981BF00B19D37 /* TrackMyProgress.storyboard in Resources */,
 				AED536EA2A39C7E9000BC51D /* BadgeDetails.storyboard in Resources */,
 				AE5DE7B22A3817F7004BC9B4 /* DashBoardTab.storyboard in Resources */,
@@ -402,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEDED8F72A2754E4001B1393 /* OnBoardingCollectionViewCell.swift in Sources */,
+				AEF17CEB2A4194A400621A6A /* NotificationCollectionViewCell.swift in Sources */,
 				AE5DE7A52A330489004BC9B4 /* AlertController.swift in Sources */,
 				AED536EC2A39C9AC000BC51D /* BadgeDetailsViewController.swift in Sources */,
 				AEDED8F12A273E09001B1393 /* Constants.swift in Sources */,
@@ -427,6 +446,7 @@
 				AE1CDDBF2A39990300D14059 /* UIView+Ext.swift in Sources */,
 				AEDED8DB2A27326D001B1393 /* SceneDelegate.swift in Sources */,
 				AE5DE7AB2A33052D004BC9B4 /* Endpoints.swift in Sources */,
+				AEF17CE92A418E5400621A6A /* NotificationsViewController.swift in Sources */,
 				AED536E72A39BACE000BC51D /* BadgeCollectionViewCell.swift in Sources */,
 				AEDED8E32A27326D001B1393 /* Sentient_Me.xcdatamodeld in Sources */,
 			);

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notifications View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NotificationsViewController" id="Y6W-OH-hqX" customClass="NotificationsViewController" customModule="Sentient_Me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-04-c83">
+                                <rect key="frame" x="15.999999999999996" y="59" width="36.666666666666657" height="34.333333333333343"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="medium"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="onbackClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="dT3-om-NMH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74J-fQ-Ldx">
+                                <rect key="frame" x="118" y="66" width="107" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="p1C-YL-i7C">
+                                <rect key="frame" x="0.0" y="105.33333333333331" width="393" height="746.66666666666674"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="jnf-m2-oeO">
+                                    <size key="itemSize" width="393" height="70"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="FoI-hf-DLm" customClass="NotificationCollectionViewCell" customModule="Sentient_Me" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JTg-OH-7AH">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dlo-wO-unw">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIf-lG-Byf" userLabel="Divider">
+                                                            <rect key="frame" x="0.0" y="69" width="393" height="1"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="1" id="v65-ry-m8X"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell.badge" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YgJ-Ei-tsX">
+                                                            <rect key="frame" x="16" y="19.333333333333332" width="32" height="27.333333333333339"/>
+                                                            <color key="tintColor" red="1" green="0.5298606942777111" blue="0.37779830682272908" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="YgJ-Ei-tsX" secondAttribute="height" multiplier="1:1" id="eJx-ud-9B1"/>
+                                                            </constraints>
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have reeived a new notification." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNX-Ab-BLS">
+                                                            <rect key="frame" x="61" y="5" width="306" height="59"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="bNX-Ab-BLS" firstAttribute="top" secondItem="Dlo-wO-unw" secondAttribute="top" constant="5" id="0iw-Ln-bbH"/>
+                                                        <constraint firstItem="YgJ-Ei-tsX" firstAttribute="centerY" secondItem="Dlo-wO-unw" secondAttribute="centerY" constant="-2" id="89D-0f-mG9"/>
+                                                        <constraint firstItem="MIf-lG-Byf" firstAttribute="top" secondItem="bNX-Ab-BLS" secondAttribute="bottom" constant="5" id="E6s-Eo-lll"/>
+                                                        <constraint firstItem="MIf-lG-Byf" firstAttribute="leading" secondItem="Dlo-wO-unw" secondAttribute="leading" id="GBQ-Rr-VD4"/>
+                                                        <constraint firstItem="YgJ-Ei-tsX" firstAttribute="leading" secondItem="Dlo-wO-unw" secondAttribute="leading" constant="16" id="R9f-wq-ZCS"/>
+                                                        <constraint firstItem="bNX-Ab-BLS" firstAttribute="leading" secondItem="YgJ-Ei-tsX" secondAttribute="trailing" constant="13" id="b0g-UY-v68"/>
+                                                        <constraint firstAttribute="bottom" secondItem="MIf-lG-Byf" secondAttribute="bottom" id="du9-zN-C3w"/>
+                                                        <constraint firstItem="MIf-lG-Byf" firstAttribute="top" secondItem="YgJ-Ei-tsX" secondAttribute="bottom" constant="19.999999999999993" id="e2M-IL-TM1"/>
+                                                        <constraint firstAttribute="trailing" secondItem="MIf-lG-Byf" secondAttribute="trailing" id="pAF-li-QuV"/>
+                                                        <constraint firstAttribute="trailing" secondItem="bNX-Ab-BLS" secondAttribute="trailing" constant="26" id="pIM-C8-CHA"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Dlo-wO-unw" firstAttribute="top" secondItem="JTg-OH-7AH" secondAttribute="top" id="8Zv-0W-X5B"/>
+                                                <constraint firstItem="Dlo-wO-unw" firstAttribute="leading" secondItem="JTg-OH-7AH" secondAttribute="leading" id="FbO-vP-WSq"/>
+                                                <constraint firstAttribute="bottom" secondItem="Dlo-wO-unw" secondAttribute="bottom" id="XI6-zA-zNT"/>
+                                                <constraint firstAttribute="trailing" secondItem="Dlo-wO-unw" secondAttribute="trailing" id="f26-b6-5Mx"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <size key="customSize" width="393" height="70"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="jri-nU-72L"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="mEj-9G-8Ht"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p1C-YL-i7C" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="CwF-We-nxE"/>
+                            <constraint firstItem="p1C-YL-i7C" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="gNd-3n-4nd"/>
+                            <constraint firstItem="p1C-YL-i7C" firstAttribute="top" secondItem="Bg5-04-c83" secondAttribute="bottom" constant="12" id="goZ-c3-iwd"/>
+                            <constraint firstAttribute="bottom" secondItem="p1C-YL-i7C" secondAttribute="bottom" id="hYQ-wY-gEi"/>
+                            <constraint firstItem="Bg5-04-c83" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="ldb-uj-sfu"/>
+                            <constraint firstItem="Bg5-04-c83" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="oze-XU-tBd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell.badge" catalog="system" width="125" height="128"/>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

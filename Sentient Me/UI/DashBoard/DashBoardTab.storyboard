@@ -48,6 +48,9 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="s6L-dK-TLW">
                                                 <rect key="frame" x="8" y="10.333333333333332" width="40" height="32.333333333333343"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="40" id="MlE-UU-dPl"/>
                                                 </constraints>
@@ -56,6 +59,9 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell.badge" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lf4-Np-k7m">
                                                 <rect key="frame" x="338" y="10.333333333333332" width="40" height="32.333333333333343"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="40" id="P8F-RR-EQY"/>
                                                 </constraints>
@@ -278,7 +284,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See details &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iV-z9-Edf">
-                                                        <rect key="frame" x="293" y="41" width="57.333333333333314" height="11"/>
+                                                        <rect key="frame" x="293.66666666666669" y="41" width="57.333333333333314" height="11"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -391,6 +397,8 @@
                         <outlet property="btnInstaFeeds" destination="0tC-5M-b53" id="Dic-Eb-DT0"/>
                         <outlet property="btnInviteFriends" destination="otH-v8-BFZ" id="y4D-rl-Oa9"/>
                         <outlet property="btnTrackProgress" destination="gJi-Ud-9uZ" id="C6M-T9-OgX"/>
+                        <outlet property="ivNotification" destination="lf4-Np-k7m" id="q8n-Nv-yFf"/>
+                        <outlet property="ivProfile" destination="s6L-dK-TLW" id="ESD-kg-WSN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jMh-ZS-zFJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
